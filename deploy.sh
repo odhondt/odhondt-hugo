@@ -4,6 +4,6 @@ hugo
 cp -r ./public/* ../odhondt.github.io/
 cd ../odhondt.github.io/
 git add .
-git commit -m "updating website"
+git commit -m "website update on `date`"
 git push origin master
 
