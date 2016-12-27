@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = false
   organization = "TU-Berlin"
   avatar = "portrait.png"
   email = "olivier.dhondt@gmail.com"
-  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  address = "Technische Universität Berlin, Computer Vision & Remote Sensing,Sekr. MAR 6-5, Marchstr. 23, D-10587 Berlin"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   #phone = "888 888 88 88"
   #skype = "echo123"
@@ -68,16 +68,6 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:dhondt.olivier@gmail.com"
-
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/tyldurd"
-
-  [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
     link = "https://scholar.google.pl/citations?view_op=list_works&hl=en&user=3vZCkcEAAAAJ&gmla=AJsN-F6Oz4IuhgD9xTcCzoYZAFiPPK8KNmgW5AFs9d4g1Lev4blk08mIUPOADrb-lWseRdySUAlVYW5UJpXjSa6ECev6XbbhTP1AJ9zDYyjzW4Seit6BwzZh_y2PPC9-TVNb32WCrMdR"
@@ -86,6 +76,16 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/odhondt"
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:dhondt.olivier@gmail.com"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/tyldurd"
 
 
 # Navigation Links
