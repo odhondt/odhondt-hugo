@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Olivier D&#39;Hondt on Olivier D&#39;Hondt</title>
-    <link>https://olivierdhondt.github.io/index.xml</link>
+    <link>https://odhondt.github.io/index.xml</link>
     <description>Recent content in Olivier D&#39;Hondt on Olivier D&#39;Hondt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Information extraction from tomographic SAR data</title>
-      <link>https://olivierdhondt.github.io/project/tomosar/</link>
+      <link>https://odhondt.github.io/project/tomosar/</link>
       <pubDate>Sat, 24 Dec 2016 19:54:07 +0100</pubDate>
       
-      <guid>https://olivierdhondt.github.io/project/tomosar/</guid>
+      <guid>https://odhondt.github.io/project/tomosar/</guid>
       <description>&lt;p&gt;This project deals with the automatic interpretation of tomographic SAR (TomoSAR) data. TomoSAR allows to reconstruct 3D objects from several 2D images acquired by an Earth observation system called Synthetic Aperture Radar (SAR). A SAR is able to provide images by sending and receiving electromagnetic waves in the microwave domain. By stacking images acquired with different incidence angles and applying high resolution signal processing methods, it is possible to reconstruct 3D reflectivity profiles. Our main goal is to develop pattern recognition algorithms to provide a semantic interpretation of such data.&lt;/p&gt;
 </description>
     </item>
