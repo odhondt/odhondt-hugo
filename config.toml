@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Olivier D'Hondt"
   role = "Researcher in Computer Vision and Remote Sensing"
-  organization = "TU-Berlin"
+  organization = "@TU-Berlin, Germany"
   avatar = "portrait.png"
   email = "dhondt.olivier@gmail.com"
   address = "Technische Universität Berlin, Computer Vision & Remote Sensing,Sekr. MAR 6-5, Marchstr. 23, D-10587 Berlin"
