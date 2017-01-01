@@ -55,10 +55,10 @@ Distribution of glacial and periglacial features within ice-free areas surroundi
 S. Guillaso, T., Schmid, J. López-Martínez and O. D’Hondt.  
 Application of a new polarimetric filter to RADARSAT-2 data of Deception Island (Antarctic Peninsula region) for surface cover characterization. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences-ISPRS Archives, Vol. XL-7/W3, 1035-1039. doi: 10.5194/isprsarchives-XL-7-W3-1035-2015
 
-O. D’Hondt and S. Guillaso and O. Hellwich..  
+O. D’Hondt and S. Guillaso and O. Hellwich.  
 Risk Based Parameter Selection For Polarimetric SAR Speckle Reduction, IGARSS’14, Quebec QC, Canada
 
-S. Guillaso and O. D’Hondt and O. Hellwich..  
+S. Guillaso and O. D’Hondt and O. Hellwich.  
 Urban Scene Reconstruction From A Reduced Number Of Tomographic Sar Data, IGARSS’14, Quebec QC, Canada
 
 O. D’Hondt and S. Guillaso.  
