@@ -73,6 +73,16 @@ defaultContentLanguageInSubdir = false
     link = "https://scholar.google.pl/citations?view_op=list_works&hl=en&user=3vZCkcEAAAAJ&gmla=AJsN-F6Oz4IuhgD9xTcCzoYZAFiPPK8KNmgW5AFs9d4g1Lev4blk08mIUPOADrb-lWseRdySUAlVYW5UJpXjSa6ECev6XbbhTP1AJ9zDYyjzW4Seit6BwzZh_y2PPC9-TVNb32WCrMdR"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/olivier-d-hondt-3112a87b?trk=hp-identity-name"
+
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Olivier_DHondt2"
+
+  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/odhondt"
@@ -82,10 +92,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "mailto:dhondt.olivier@gmail.com"
 
-  [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "//twitter.com/tyldurd"
+ # [[params.social]]
+ #   icon = "twitter"
+ #   icon_pack = "fa"
+ #   link = "//twitter.com/tyldurd"
+
 
 
 # Navigation Links
