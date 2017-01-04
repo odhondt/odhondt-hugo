@@ -134,6 +134,11 @@ defaultContentLanguageInSubdir = false
   url = "#contact"
   weight = 6
 
+[[menu.main]]
+  name = "CV"
+  url = "/img/cv_odhondt.pdf"
+  weight = 7
+
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
