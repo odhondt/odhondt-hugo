@@ -5,7 +5,7 @@ math = false
 external_link = ""
 date = "2016-12-24T19:54:07+01:00"
 title = "Information extraction from tomographic SAR data"
-image = "fig_tomosar.png"
+image = ""
 image_preview = "fig_tomosar.png"
 
 +++
@@ -14,7 +14,7 @@ image_preview = "fig_tomosar.png"
 
 This project deals with the automatic interpretation of tomographic SAR (TomoSAR) data. TomoSAR allows to reconstruct 3D objects from several 2D images acquired by an Earth observation system called Synthetic Aperture Radar (SAR). A SAR is able to provide images by sending and receiving electromagnetic waves in the microwave domain. By stacking images acquired with different incidence angles and applying high resolution signal processing methods, it is possible to reconstruct 3D reflectivity profiles. Our main goal is to develop pattern recognition algorithms to provide a semantic interpretation of such data.
 
-contact: [Olivier D'Hondt](http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_dhondt/)
+![](/img/fig_tomosar.png)
 
 ## Sub-topics
 
@@ -22,7 +22,7 @@ contact: [Olivier D'Hondt](http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_
 
 This sub-topic consists in exploiting both image radiometry and 3D point geometry to detect and classify building parts. First, a geometric primitive extraction process exploiting image and 3D information allows us to separate planar patches. These patches are then classified by geometric rules to identify building parts such as facades and roofs. Thanks to a parametric approach a de-noised 3D representation of buildings is possible.
 
-![](fig_isprs.png)
+![](/img/fig_isprs.png)
 
 
 #### Related publications
@@ -41,7 +41,7 @@ O. D'Hondt, S. Guillaso and O. Hellwich, _Automatic extraction of geometric stru
 An important processing step in the TomoSAR pipeline is speckle filtering. Due to the randomness of natural media, image intensities are affected by speckle which can be modeled as a multiplicative noise. Additionally, de-correlation effects due to spatial and temporal baselines as well as surface roughness and volume diffusion result in noisy phases, hindering the 3D reconstruction. Here, we develop adaptive filtering methods that operate in the image domain and improve height estimation in the 3D point clouds. Our filtering methods are based on the successful the nonlocal framework adapted to covariance matrices thanks to the use of Riemannian distances on the manifold of Hermitian positive definite matrices.
 
 
-![](fig_blf.png)
+![](/img/fig_blf.png)
 
 
 #### Related publications
@@ -56,7 +56,7 @@ O. D'Hondt, S. Guillaso, C. Lopez-Martinez and O. Hellwich _Evaluation of a Bila
 
 Here, we focus on developing machine learning methods to perform a pixel-based semantic labelling of TomoSAR image stacks. It is well known that under different incidence angles, backscattering properties of natural and man-made targets vary. Moreover,  TomoSAR contains  phase information related to the position of scatterers in the 3D space. Therefore, we exploit these information to design relevant feature allowing a classification of the different types of objects present in a scene according to semantic categories such as 'forest', 'building', 'crop', 'water', 'road' and so on.  
 
-![](fig_ML.png)
+![](/img/fig_ML.png)
 
 #### Related publications
 

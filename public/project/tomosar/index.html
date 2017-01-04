@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.18" />
+  <meta name="generator" content="Hugo 0.18.1" />
   <meta name="author" content="Olivier D&#39;Hondt">
   <meta name="description" content="Researcher in Computer Vision and Remote Sensing">
 
@@ -88,15 +88,61 @@
 
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
-    <img src="https://odhondt.github.io/img/fig_tomosar.png" class="article-banner" itemprop="image">
-    
 
     <h1 itemprop="name">Information extraction from tomographic SAR data</h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
-      <p>This project deals with the automatic interpretation of tomographic SAR (TomoSAR) data. TomoSAR allows to reconstruct 3D objects from several 2D images acquired by an Earth observation system called Synthetic Aperture Radar (SAR). A SAR is able to provide images by sending and receiving electromagnetic waves in the microwave domain. By stacking images acquired with different incidence angles and applying high resolution signal processing methods, it is possible to reconstruct 3D reflectivity profiles. Our main goal is to develop pattern recognition algorithms to provide a semantic interpretation of such data.</p>
+      
+
+<h2 id="project-summary">Project summary</h2>
+
+<p>This project deals with the automatic interpretation of tomographic SAR (TomoSAR) data. TomoSAR allows to reconstruct 3D objects from several 2D images acquired by an Earth observation system called Synthetic Aperture Radar (SAR). A SAR is able to provide images by sending and receiving electromagnetic waves in the microwave domain. By stacking images acquired with different incidence angles and applying high resolution signal processing methods, it is possible to reconstruct 3D reflectivity profiles. Our main goal is to develop pattern recognition algorithms to provide a semantic interpretation of such data.</p>
+
+<p><img src="/img/fig_tomosar.png" alt="" /></p>
+
+<h2 id="sub-topics">Sub-topics</h2>
+
+<h3 id="building-extraction-from-3d-point-clouds">Building extraction from 3D point clouds</h3>
+
+<p>This sub-topic consists in exploiting both image radiometry and 3D point geometry to detect and classify building parts. First, a geometric primitive extraction process exploiting image and 3D information allows us to separate planar patches. These patches are then classified by geometric rules to identify building parts such as facades and roofs. Thanks to a parametric approach a de-noised 3D representation of buildings is possible.</p>
+
+<p><img src="/img/fig_isprs.png" alt="" /></p>
+
+<h4 id="related-publications">Related publications</h4>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich <em>Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography</em> ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2016, III-7, 235-242
+<a href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-7/235/2016/isprs-annals-III-7-235-2016.pdf" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich <em>Geometric primitive extraction for 3D reconstruction of urban areas from tomographic SAR data</em>, Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brazil
+<a href="http://ieeexplore.ieee.org/document/6550701/" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich, <em>Automatic extraction of geometric structures for 3D reconstruction from Tomographic SAR data</em>, Proceedings of IGARSS&rsquo;12 Conference, 2012, Munich, Germany
+<a href="http://ieeexplore.ieee.org/document/6350507/" target="_blank">link</a></p>
+
+<h3 id="point-cloud-improvement-by-image-filtering">Point cloud improvement by image filtering</h3>
+
+<p>An important processing step in the TomoSAR pipeline is speckle filtering. Due to the randomness of natural media, image intensities are affected by speckle which can be modeled as a multiplicative noise. Additionally, de-correlation effects due to spatial and temporal baselines as well as surface roughness and volume diffusion result in noisy phases, hindering the 3D reconstruction. Here, we develop adaptive filtering methods that operate in the image domain and improve height estimation in the 3D point clouds. Our filtering methods are based on the successful the nonlocal framework adapted to covariance matrices thanks to the use of Riemannian distances on the manifold of Hermitian positive definite matrices.</p>
+
+<p><img src="/img/fig_blf.png" alt="" /></p>
+
+<h4 id="related-publications-1">Related publications</h4>
+
+<p>O. D&rsquo;Hondt, C. Lopez-Martinez, S. Guillaso and O. Hellwich <em>Non-Local Filtering Applied to 3D Reconstruction of Tomographic SAR Data</em> Submitted to IEEE Transactions on Geoscience and Remote Sensing</p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso, C. Lopez-Martinez and O. Hellwich <em>Evaluation of a Bilateral Filtering Approach for Tomographic SAR Denoising</em> Proceedings of EUSAR 2016: 11th European Conference on Synthetic Aperture Radar, 2016, 1-4
+<a href="http://ieeexplore.ieee.org/document/7559486/" target="_blank">link</a></p>
+
+<h3 id="machine-learning-for-image-classification">Machine learning for image classification</h3>
+
+<p>Here, we focus on developing machine learning methods to perform a pixel-based semantic labelling of TomoSAR image stacks. It is well known that under different incidence angles, backscattering properties of natural and man-made targets vary. Moreover,  TomoSAR contains  phase information related to the position of scatterers in the 3D space. Therefore, we exploit these information to design relevant feature allowing a classification of the different types of objects present in a scene according to semantic categories such as &lsquo;forest&rsquo;, &lsquo;building&rsquo;, &lsquo;crop&rsquo;, &lsquo;water&rsquo;, &lsquo;road&rsquo; and so on.</p>
+
+<p><img src="/img/fig_ML.png" alt="" /></p>
+
+<h4 id="related-publications-2">Related publications</h4>
+
+<p>In progress.</p>
 
     </div>
   </article>
