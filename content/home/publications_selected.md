@@ -32,6 +32,9 @@ Iterative Bilateral Filtering of Polarimetric SAR Data. Selected Topics in Appli
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 Geometric primitive extraction for 3D reconstruction of urban areas from tomographic SAR data, Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brazil
 
+S. Guillaso, O. D’Hondt and O. Hellwich.  
+Building Characterization using Polarimetric Tomographic SAR Data, Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brasil
+
 N. Papadakis, A. Baeza, A. Bugeau, P. Gargallo, O. D’Hondt, V. Caselles, X. Armangue, I. Rius, and S. Sagas.  
 Virtual camera synthesis for soccer game replays. JVRB - Journal of Virtual Reality and Broadcasting, 2013, 9 (2012)
 
@@ -66,9 +69,6 @@ Automatic Parameter Selection for the PolSAR Bilateral Filter, EUSAR’14, Berli
 
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 Complementarity of SAR Polarimetry and Tomography for Building Detection and Characterization. ISPRS Hannover Workshop 2013
-
-S. Guillaso, O. D’Hondt and O. Hellwich.  
-Building Characterization using Polarimetric Tomographic SAR Data, Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brasil
 
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 Bilateral filtering of PolSAR data based on Riemannian metrics, Proceedings of IGARSS’12 Conference, 2012, Munich, Germany
