@@ -38,6 +38,9 @@ S. Guillaso, O. D’Hondt and O. Hellwich.
 N. Papadakis, A. Baeza, A. Bugeau, P. Gargallo, O. D’Hondt, V. Caselles, X. Armangue, I. Rius, and S. Sagas.  
 **Virtual camera synthesis for soccer game replays.** JVRB - Journal of Virtual Reality and Broadcasting, 2013, 9 (2012)
 
+O. D’Hondt and V. Caselles.  
+**Unsupervised motion layer segmentation by random sampling and energy minimization.** CVMP 2010 (Conference on Visual Media Production), IEEE Computer Society, 2010, 141-150, London, UK
+
 O. D’Hondt, C. Lopez-Martinez, L. Ferro-Famil, and E. Pottier.  
 **Spatially non stationary anisotropic texture analysis in SAR images.** Geoscience and Remote Sensing, IEEE Transactions on, 45 (12) :3905 –3918, dec. 2007.
 
@@ -81,9 +84,6 @@ S. Guillaso, O. D’Hondt and O. Hellwich.
 
 E. Meinhardt-Llopis, O. D’Hondt, G. Facciolo and V. Caselles.  
 **Relative Depth From Monocular Optical Flow.** IEEE International Conference on Image Processing (IEEE ICIP 2011), 2011, Brussels, Belgium
-
-O. D’Hondt and V. Caselles.  
-**Unsupervised motion layer segmentation by random sampling and energy minimization.** CVMP 2010 (Conference on Visual Media Production), IEEE Computer Society, 2010, 141-150, London, UK
 
 N. Papadakis, A. Baeza, I. Rius, X. Armangue, A. Bugeau, O. D’Hondt, P. Gargallo, V. Caselles, and S. Sagas.  
 **Virtual camera synthesis for soccer game replays.** CVMP 2010 (Conference on Visual Media Production), IEEE Computer Society, 2010, 97-106, London, UK
