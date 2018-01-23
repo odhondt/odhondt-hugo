@@ -24,11 +24,11 @@ O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.
 **Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data**
 IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
 
-O. D’Hondt, S. Guillaso, and O. Hellwich.  
-**Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography.** ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., III-7, 235-242, 2016.
-
 T. Schmid, J. López-Martínez, S. Guillaso, E. Serrano, O. D’Hondt, M. Koch, A. Nieto, T. O’Neill, S. Mink, J.J. Durán, A. Maestro.  
 **Geomorphological mapping of ice-free areas using polarimetric RADARSAT-2 data on Fildes Peninsula and Ardley Island, Antarctica.** Geomorphology, 2017, 293, 448 - 459.
+
+O. D’Hondt, S. Guillaso, and O. Hellwich.  
+**Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography.** ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., III-7, 235-242, 2016.
 
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 **Iterative Bilateral Filtering of Polarimetric SAR Data**. Selected Topics in Applied Earth Observations and Remote Sensing, IEEE Journal of, 2013, 6, 1628-1639.
