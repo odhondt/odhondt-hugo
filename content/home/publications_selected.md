@@ -20,7 +20,7 @@ detailed_list = false
 
 ## Peer-reviewed journals and conferences
 
-O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich,
+O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.  
 **Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data**
 IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
 
@@ -52,6 +52,14 @@ O. D’Hondt, L. Ferro-Famil, and E. Pottier.
 **Nonstationary spatial texture estimation applied to adaptive speckle reduction of SAR data.** Geoscience and Remote Sensing Letters, IEEE, 3(4) :476–480, 2006
 
 ## International conferences
+
+O. D'Hondt, C. López-Martínez, S. Guillaso and O. Hellwich.  
+**Impact of non-local filtering on 3D reconstruction from tomographic SAR data.**
+IGARSS 2017: 2476-2479
+
+A. Ley, O. D'Hondt and O. Hellwich,  
+**Regularization and completion of tomosar point clouds in a projected height map domain.**
+IGARSS 2017: 5854-5857
 
 O. D’Hondt, S. Guillaso, C. Lopez-Martinez and O. Hellwich.  
 **Evaluation of a Bilateral Filtering Approach for Tomographic SAR Denoising.** Proceedings of EUSAR 2016: 11th European Conference on Synthetic Aperture Radar, Hamburg, Germany, 2016, pp. 1-4.
