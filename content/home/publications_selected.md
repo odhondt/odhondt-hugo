@@ -20,6 +20,10 @@ detailed_list = false
 
 ## Peer-reviewed journals and conferences
 
+O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich,
+**Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data**
+IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
+
 O. D’Hondt, S. Guillaso, and O. Hellwich.  
 **Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography.** ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., III-7, 235-242, 2016.
 
