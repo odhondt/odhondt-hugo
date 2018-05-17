@@ -20,6 +20,8 @@ detailed_list = false
 
 ## Peer-reviewed journals and conferences
 
+A. Ley, O. D’Hondt and O. Hellwich, **Regularization and Completion of TomoSAR Point Clouds in a Projected Height Map Domain.** IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (available online as early access [IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/)).
+
 O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.  
 **Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data**
 IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
