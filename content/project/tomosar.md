@@ -6,7 +6,7 @@ This project deals with the automatic interpretation of tomographic SAR (TomoSAR
 
 contact: [Olivier D'Hondt](http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_dhondt/)
 
-![](./fig_tomosar.png){width=720px}
+![](./fig_tomosar.png)
 
 ## Sub-topics
 
@@ -14,7 +14,7 @@ contact: [Olivier D'Hondt](http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_
 
 An important processing step in the TomoSAR pipeline is speckle filtering. Due to the randomness of natural media, image intensities are affected by speckle which can be modeled as a multiplicative noise. Additionally, de-correlation effects due to spatial and temporal baselines as well as surface roughness and volume diffusion result in noisy phases, hindering the 3D reconstruction. Here, we develop adaptive filtering methods that operate in the image domain and improve height estimation in the 3D point clouds. Our filtering methods are based on the successful the nonlocal framework adapted to covariance matrices thanks to the use of Riemannian distances on the manifold of Hermitian positive definite matrices.
 
-![](./fig_nlm.png){width=720px}
+![](./fig_nlm.png)
 
 #### Related publications
 
@@ -35,7 +35,7 @@ EUSAR 2016, 1-4. [link](http://ieeexplore.ieee.org/document/7559486/)
 
 3D point clouds extracted thanks to tomographic processing methods are often corrupted by noise and artifacts which need to be corrected. In this work, we propose a simple convex optimization formulation that exploits the geometric constraint that the line of sight between a sensor and a surface measurement must not be blocked by another surface. We demonstrate the ability of our method to denoise point clouds and fill holes on both synthetic data and experimental E-SAR data by the German Aerospace Center (DLR).
 
-![](./fig_completion.png){width=480px}
+![](./fig_completion.png)
 
 #### Related publications
 
@@ -51,7 +51,7 @@ IGARSS 2017: 5854-5857 [link](https://ieeexplore.ieee.org/document/8128340/)
 
 Here, we focus on developing machine learning methods to perform a pixel-based semantic labelling of TomoSAR image stacks. It is well known that under different incidence angles, backscattering properties of natural and man-made targets vary. Moreover,  TomoSAR contains  phase information related to the position of scatterers in the 3D space. Therefore, we exploit these information to design relevant feature allowing a classification of the different types of objects present in a scene according to semantic categories such as 'forest', 'building', 'crop', 'water', 'road' and so on.  
 
-![](./fig_ML.png){width=512px}
+![](./fig_ML.png)
 
 #### Related publications
 

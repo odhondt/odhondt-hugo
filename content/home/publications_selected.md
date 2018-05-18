@@ -24,7 +24,7 @@ A. Ley, O. D’Hondt and O. Hellwich, **Regularization and Completion of TomoSAR
 IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (available online as early access [IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/)).
 
 O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.  
-**Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data**  
+**Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data.**  
 IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
 
 T. Schmid, J. López-Martínez, S. Guillaso, E. Serrano, O. D’Hondt, M. Koch, A. Nieto, T. O’Neill, S. Mink, J.J. Durán, A. Maestro.  
@@ -55,6 +55,14 @@ O. D’Hondt, L. Ferro-Famil, and E. Pottier.
 **Nonstationary spatial texture estimation applied to adaptive speckle reduction of SAR data.** Geoscience and Remote Sensing Letters, IEEE, 3(4) :476–480, 2006
 
 ## International conferences
+
+O. D'Hondt, R. Haensch, and O. Hellwich.  
+**Supervised Classification from TomoSAR Data.**  
+EUSAR 2018 Aachen, Germany,June 2018. (accepted), 2018.
+
+O. D'Hondt, R. Haensch, and O. Hellwich.  
+**Feature Design for Classification from TomoSAR Data.**  
+IGARSS 2018 Valencia, Spain, July 2018. (accepted), 2018.
 
 O. D'Hondt, C. López-Martínez, S. Guillaso and O. Hellwich.  
 **Impact of non-local filtering on 3D reconstruction from tomographic SAR data.**
