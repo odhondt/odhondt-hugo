@@ -28,7 +28,7 @@
 
   
 
-  <title>Information extraction from tomographic SAR data | Olivier D&#39;Hondt</title>
+  <title> | Olivier D&#39;Hondt</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -95,60 +95,100 @@
   <article class="article article-project" itemscope itemtype="http://schema.org/Article">
     
 
-    <h1 itemprop="name">Information extraction from tomographic SAR data</h1>
+    <h1 itemprop="name"></h1>
 
     
 
     <div class="article-style" itemprop="articleBody">
       
 
+<h1 id="tomosar-information-extraction-from-tomographic-sar-data">TomoSAR - Information Extraction from Tomographic SAR Data</h1>
+
 <h2 id="project-summary">Project summary</h2>
 
 <p>This project deals with the automatic interpretation of tomographic SAR (TomoSAR) data. TomoSAR allows to reconstruct 3D objects from several 2D images acquired by an Earth observation system called Synthetic Aperture Radar (SAR). A SAR is able to provide images by sending and receiving electromagnetic waves in the microwave domain. By stacking images acquired with different incidence angles and applying high resolution signal processing methods, it is possible to reconstruct 3D reflectivity profiles. Our main goal is to develop pattern recognition algorithms to provide a semantic interpretation of such data.</p>
 
-<p><img src="/img/fig_tomosar.png" alt="" /></p>
+<p>contact: <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_dhondt/" target="_blank">Olivier D&rsquo;Hondt</a></p>
+
+<p><img src="./fig_tomosar.png" alt="" /></p>
 
 <h2 id="sub-topics">Sub-topics</h2>
-
-<h3 id="building-extraction-from-3d-point-clouds">Building extraction from 3D point clouds</h3>
-
-<p>This sub-topic consists in exploiting both image radiometry and 3D point geometry to detect and classify building parts. First, a geometric primitive extraction process exploiting image and 3D information allows us to separate planar patches. These patches are then classified by geometric rules to identify building parts such as facades and roofs. Thanks to a parametric approach a de-noised 3D representation of buildings is possible.</p>
-
-<p><img src="/img/fig_isprs.png" alt="" /></p>
-
-<h4 id="related-publications">Related publications</h4>
-
-<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich <em>Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography</em> ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2016, III-7, 235-242
-<a href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-7/235/2016/isprs-annals-III-7-235-2016.pdf" target="_blank">link</a></p>
-
-<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich <em>Geometric primitive extraction for 3D reconstruction of urban areas from tomographic SAR data</em>, Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brazil
-<a href="http://ieeexplore.ieee.org/document/6550701/" target="_blank">link</a></p>
-
-<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich, <em>Automatic extraction of geometric structures for 3D reconstruction from Tomographic SAR data</em>, Proceedings of IGARSS&rsquo;12 Conference, 2012, Munich, Germany
-<a href="http://ieeexplore.ieee.org/document/6350507/" target="_blank">link</a></p>
 
 <h3 id="point-cloud-improvement-by-image-filtering">Point cloud improvement by image filtering</h3>
 
 <p>An important processing step in the TomoSAR pipeline is speckle filtering. Due to the randomness of natural media, image intensities are affected by speckle which can be modeled as a multiplicative noise. Additionally, de-correlation effects due to spatial and temporal baselines as well as surface roughness and volume diffusion result in noisy phases, hindering the 3D reconstruction. Here, we develop adaptive filtering methods that operate in the image domain and improve height estimation in the 3D point clouds. Our filtering methods are based on the successful the nonlocal framework adapted to covariance matrices thanks to the use of Riemannian distances on the manifold of Hermitian positive definite matrices.</p>
 
-<p><img src="/img/fig_blf.png" alt="" /></p>
+<p><img src="./fig_nlm.png" alt="" />{width=720px}</p>
+
+<h4 id="related-publications">Related publications</h4>
+
+<p>O. D&rsquo;Hondt, C. Lopez-Martinez , S. Guillaso and O. Hellwich.<br />
+<strong>Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data.</strong><br />
+IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285.
+<a href="https://ieeexplore.ieee.org/document/8047474/" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, C. Lopez-Martinez, S. Guillaso and O. Hellwich.<br />
+<strong>Impact of non-local filtering on 3D reconstruction from tomographic SAR data.</strong><br />
+IGARSS 2017: 2476-2479 <a href="https://ieeexplore.ieee.org/document/8127495/" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso, C. Lopez-Martinez and O. Hellwich.<br />
+<strong>Evaluation of a Bilateral Filtering Approach for Tomographic SAR Denoising.</strong><br />
+EUSAR 2016, 1-4. <a href="http://ieeexplore.ieee.org/document/7559486/" target="_blank">link</a></p>
+
+<h3 id="completion-and-regularization-of-tomosar-point-clouds">Completion and regularization of TomoSAR point clouds</h3>
+
+<p>3D point clouds extracted thanks to tomographic processing methods are often corrupted by noise and artifacts which need to be corrected. In this work, we propose a simple convex optimization formulation that exploits the geometric constraint that the line of sight between a sensor and a surface measurement must not be blocked by another surface. We demonstrate the ability of our method to denoise point clouds and fill holes on both synthetic data and experimental E-SAR data by the German Aerospace Center (DLR).</p>
+
+<p><img src="./fig_completion.png" alt="" />{width=480px}</p>
 
 <h4 id="related-publications-1">Related publications</h4>
 
-<p>O. D&rsquo;Hondt, C. Lopez-Martinez, S. Guillaso and O. Hellwich <em>Non-Local Filtering Applied to 3D Reconstruction of Tomographic SAR Data</em> Submitted to IEEE Transactions on Geoscience and Remote Sensing</p>
+<p>A. Ley, O. D&rsquo;Hondt and O. Hellwich.<br />
+<strong>Regularization and Completion of TomoSAR Point Clouds in a Projected Height Map Domain.</strong><br />
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2018 (available online as early access). <a href="https://ieeexplore.ieee.org/document/8332974/" target="_blank">link</a></p>
 
-<p>O. D&rsquo;Hondt, S. Guillaso, C. Lopez-Martinez and O. Hellwich <em>Evaluation of a Bilateral Filtering Approach for Tomographic SAR Denoising</em> Proceedings of EUSAR 2016: 11th European Conference on Synthetic Aperture Radar, 2016, 1-4
-<a href="http://ieeexplore.ieee.org/document/7559486/" target="_blank">link</a></p>
+<p>A. Ley, O. D&rsquo;Hondt and O. Hellwich.<br />
+<strong>Regularization and Completion of Tomosar Point Clouds in a Projected Height Map Domain.</strong><br />
+IGARSS 2017: 5854-5857 <a href="https://ieeexplore.ieee.org/document/8128340/" target="_blank">link</a></p>
 
 <h3 id="machine-learning-for-image-classification">Machine learning for image classification</h3>
 
 <p>Here, we focus on developing machine learning methods to perform a pixel-based semantic labelling of TomoSAR image stacks. It is well known that under different incidence angles, backscattering properties of natural and man-made targets vary. Moreover,  TomoSAR contains  phase information related to the position of scatterers in the 3D space. Therefore, we exploit these information to design relevant feature allowing a classification of the different types of objects present in a scene according to semantic categories such as &lsquo;forest&rsquo;, &lsquo;building&rsquo;, &lsquo;crop&rsquo;, &lsquo;water&rsquo;, &lsquo;road&rsquo; and so on.</p>
 
-<p><img src="/img/fig_ML.png" alt="" /></p>
+<p><img src="./fig_ML.png" alt="" />{width=512px}</p>
 
 <h4 id="related-publications-2">Related publications</h4>
 
-<p>In progress.</p>
+<p>O. D&rsquo;Hondt, R. Haensch, and O. Hellwich.<br />
+<strong>Supervised Classification from TomoSAR Data.</strong><br />
+EUSAR 2018 Aachen, Germany,June 2018. (accepted), 2018.</p>
+
+<p>O. D&rsquo;Hondt, R. Haensch, and O. Hellwich.<br />
+<strong>Feature Design for Classification from TomoSAR Data.</strong><br />
+IGARSS 2018 Valencia, Spain, July 2018. (accepted), 2018.</p>
+
+<h3 id="building-extraction-from-3d-point-clouds">Building extraction from 3D point clouds</h3>
+
+<p>This sub-topic consists in exploiting both image radiometry and 3D point geometry to detect and classify building parts. First, a geometric primitive extraction process exploiting image and 3D information allows us to separate planar patches. These patches are then classified by geometric rules to identify building parts such as facades and roofs. Thanks to a parametric approach a de-noised 3D representation of buildings is possible.</p>
+
+<p><img src="./fig_isprs.png" alt="" /></p>
+
+<h4 id="related-publications-3">Related publications</h4>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich.<br />
+<strong>Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography.</strong><br />
+ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences, 2016, III-7, 235-242
+<a href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-7/235/2016/isprs-annals-III-7-235-2016.pdf" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich.<br />
+<strong>Geometric primitive extraction for 3D reconstruction of urban areas from tomographic SAR data.</strong><br />
+Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brazil
+<a href="http://ieeexplore.ieee.org/document/6550701/" target="_blank">link</a></p>
+
+<p>O. D&rsquo;Hondt, S. Guillaso and O. Hellwich.<br />
+<strong>Automatic extraction of geometric structures for 3D reconstruction from Tomographic SAR data.</strong><br />
+Proceedings of IGARSS&rsquo;12 Conference, 2012, Munich, Germany
+<a href="http://ieeexplore.ieee.org/document/6350507/" target="_blank">link</a></p>
 
     </div>
   </article>
@@ -157,6 +197,9 @@
   <ul class="pager">
     
 
+    
+    <li class="next"><a href="https://odhondt.github.io/project/tomosar_old/">Information extraction from tomographic SAR data <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
