@@ -6,7 +6,7 @@ This project deals with the automatic interpretation of tomographic SAR (TomoSAR
 
 contact: [Olivier D'Hondt](http://www.cv.tu-berlin.de/menue/mitarbeiter/olivier_dhondt/)
 
-![](./fig_tomosar.png)
+![](./fig_tomosar.png){width=720px}
 
 ## Sub-topics
 
