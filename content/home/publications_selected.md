@@ -20,8 +20,11 @@ detailed_list = false
 
 ## Peer-reviewed journals and conferences
 
+O. D’Hondt, R. Hänsch, N. Wagener and O. Hellwich, **Exploiting SAR Tomography for Supervised Land-Cover Classification.**   
+Remote Sens. 2018, 10, 1742. [MDPI Open Access link](https://www.mdpi.com/2072-4292/10/11/1742).
+
 A. Ley, O. D’Hondt and O. Hellwich, **Regularization and Completion of TomoSAR Point Clouds in a Projected Height Map Domain.**  
-IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing (available online as early access [IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/)).
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing [IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/).
 
 O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.  
 **Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data.**  
