@@ -21,23 +21,28 @@ detailed_list = false
 ## Peer-reviewed journals and conferences
 
 O. D’Hondt, R. Hänsch, N. Wagener and O. Hellwich, **Exploiting SAR Tomography for Supervised Land-Cover Classification.**   
-Remote Sens. 2018, 10, 1742. [MDPI Open Access link](https://www.mdpi.com/2072-4292/10/11/1742).
+Remote Sens. 2018, 10, 1742. [MDPI Open Access link](https://www.mdpi.com/2072-4292/10/11/1742)
 
 A. Ley, O. D’Hondt and O. Hellwich, **Regularization and Completion of TomoSAR Point Clouds in a Projected Height Map Domain.**  
-IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing [IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/).
+IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 11, no. 6, pp. 2104-2114, June 2018.
+[IEEEXplore link](https://ieeexplore.ieee.org/document/8332974/)
 
 O. D'Hondt, C. López-Martínez , S. Guillaso and O. Hellwich.  
 **Nonlocal Filtering Applied to 3-D Reconstruction of Tomographic SAR Data.**  
 IEEE Transactions on Geoscience and Remote Sensing, 2018, 56, 272-285
+[IEEEXplore link](https://ieeexplore.ieee.org/document/8047474)
 
 T. Schmid, J. López-Martínez, S. Guillaso, E. Serrano, O. D’Hondt, M. Koch, A. Nieto, T. O’Neill, S. Mink, J.J. Durán, A. Maestro.  
 **Geomorphological mapping of ice-free areas using polarimetric RADARSAT-2 data on Fildes Peninsula and Ardley Island, Antarctica.** Geomorphology, 2017, 293, 448 - 459.
+[Science Direct link](https://www.sciencedirect.com/science/article/pii/S0169555X16308819)
 
 O. D’Hondt, S. Guillaso, and O. Hellwich.  
 **Towards a Semantic Interpretation of Urban Areas with Airborne Synthetic Aperture Radar Tomography.** ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., III-7, 235-242, 2016.
+[ISPRS link](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-7/235/2016/)
 
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 **Iterative Bilateral Filtering of Polarimetric SAR Data**. Selected Topics in Applied Earth Observations and Remote Sensing, IEEE Journal of, 2013, 6, 1628-1639.
+[IEEEXplore link](https://ieeexplore.ieee.org/document/6509975)
 
 O. D’Hondt, S. Guillaso and O. Hellwich.  
 **Geometric primitive extraction for 3D reconstruction of urban areas from tomographic SAR data.** Proceedings of JURSE 2013 - Joint Urban Remote Sensing Event 2013, Sao Paulo, Brazil
