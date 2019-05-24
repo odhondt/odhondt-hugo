@@ -64,6 +64,10 @@ O. D’Hondt, L. Ferro-Famil, and E. Pottier.
 
 ## International conferences
 
+A. Ley, O. D'Hondt, S. Valade, R. Haensch and O. Hellwich.  
+**Exploiting GAN-Based SAR to Optical Image Transcoding for Improved Classification via Deep Learning**   
+EUSAR 2018, Aachen, Germany, June 2018.
+
 O. D'Hondt, R. Haensch, and O. Hellwich.  
 **Supervised Classification from TomoSAR Data.**  
 EUSAR 2018 Aachen, Germany,June 2018. (accepted), 2018.
